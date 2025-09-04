@@ -14,7 +14,7 @@ function Counter() {
     // Function to increment the age
     function incrementAge() {
        // Incrementing the age by 10
-        setAge(age + 10);
+        setAge(age + 18);
         console.log("Age:", age);
     } 
 
@@ -28,4 +28,5 @@ function Counter() {
         </div>
     ) 
 }
+
 export default Counter;
