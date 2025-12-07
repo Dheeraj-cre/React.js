@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 
-// Creating a functional component
+// Creating a functional component 
 function Counter() {
     // Creating a variable
     let count = 0;
@@ -13,7 +13,7 @@ function Counter() {
     const [age, setAge] = useState(0);
     // Function to increment the age
     function incrementAge() {
-       // Incrementing the age by 10
+       // Incrementing the age by 10 num
         setAge(age + 18);
         console.log("Age:", age);
     } 
@@ -30,3 +30,4 @@ function Counter() {
 }
 
 export default Counter;
+
