@@ -12,6 +12,7 @@ function StudentRegistration()
 	{
 		// prevent default page load on submit event
 		//formdata.preventDefault()
+		reset();
 		alert("Student id : "+formdata.stdid+"\n Student Name :"+ formdata.stdname+"\n Age : "+formdata.age+" year")
 	}
 
@@ -65,4 +66,5 @@ function StudentRegistration()
 		</div>
 		)
 }
+
 export default StudentRegistration
