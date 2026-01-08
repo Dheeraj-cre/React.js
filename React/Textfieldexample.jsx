@@ -22,7 +22,7 @@ function Textfieldexample(){
 				Text field Example
 			</h2>
 			<p>Student Name:<input type="text" name="stdname" value={studentname} onChange={displayName} placeholder="Enter name of student" /></p>
-            
+            <p>Student Name:<input type="text" name="stdname" value={studentname} onChange={displayName} placeholder="Enter subject of student" /></p>
             
 
             <p>Name of Student:{studentname}</p> 
@@ -32,5 +32,6 @@ function Textfieldexample(){
 		)
 
 }
+
 
 export default Textfieldexample;
