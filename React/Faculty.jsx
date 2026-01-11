@@ -1,5 +1,5 @@
 import React,{useState} from 'react'
-
+// faculty
 function Faculty(){
     // creating a state variable for text field.
     const [facultyname,setFacultyname]=useState('');
@@ -57,5 +57,6 @@ function Faculty(){
         )
 
 }
+
 
 export default Faculty;
