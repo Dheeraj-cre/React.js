@@ -34,4 +34,12 @@ function Textfieldexample(){
 }
 
 
+
 export default Textfieldexample;
+
+
+// event → Object automatically passed when user types
+
+// event.target → The input element
+
+// event.target.value → Current text inside input field
