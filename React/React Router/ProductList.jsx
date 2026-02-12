@@ -18,6 +18,7 @@ function ProductList({productlist})
 									<th>Price(in Rs.)</th>
 								</tr>
 							</thead>
+							{/* using map to dinamicaly prsent the data */}
 							<tbody>
 								{productlist.map((product) => (
 									<tr>
@@ -35,3 +36,4 @@ function ProductList({productlist})
 		)
 }
 export default ProductList
+
